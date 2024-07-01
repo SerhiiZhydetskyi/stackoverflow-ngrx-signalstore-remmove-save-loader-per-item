@@ -63,7 +63,6 @@ export class AppComponent {
 
     processingBook: IBook | null = null;
 
-
     constructor() {
         effect(() => {
             if (!this.bookStore.isLoading()) {
